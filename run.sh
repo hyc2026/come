@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 \
   python run_gen.py \
   --do_train --do_eval \
   --task summarize --sub_task $task --model_type codet5 --data_num -1 \
-  --data_type s1 --num_train_epochs 1 --warmup_steps 1000 --learning_rate $learning_rate \
+  --data_type s1 --num_train_epochs 5 --warmup_steps 1000 --learning_rate $learning_rate \
   --tokenizer_name=Salesforce/codet5-base --model_name_or_path=Salesforce/codet5-base --data_dir ./data \
   --cache_path $cache_path/s1 --output_dir $output_dir/s1 --summary_dir ./summary/s1 \
   --save_last_checkpoints --always_save_model --res_dir $res_dir/s1 \
@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=0 \
   python run_gen.py \
   --do_train --do_eval --do_eval_bleu --do_test \
   --task summarize --sub_task $task --model_type codet5 --data_num -1 \
-  --data_type s2 --num_train_epochs 1 --warmup_steps 1000 --learning_rate $learning_rate \
+  --data_type s2 --num_train_epochs 10 --warmup_steps 1000 --learning_rate $learning_rate \
   --tokenizer_name=Salesforce/codet5-base --model_name_or_path=./exp/$date/output/s1/checkpoint-best-ppl --data_dir ./data \
   --cache_path $cache_path/s2 --output_dir $output_dir/s2 --summary_dir ./summary/s2 \
   --save_last_checkpoints --always_save_model --res_dir $res_dir/s2 \
