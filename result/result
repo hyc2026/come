@@ -1,18 +1,18 @@
 ./result/MCMD/cpp/tranlate
-BLEU: 20.19
-Meteor:  14.19
-Rouge-L:  26.48
-Cider:  1.18
+BLEU: 20.40
+Meteor:  14.27
+Rouge-L:  26.76
+Cider:  1.19
 ./result/MCMD/cpp/retrieve
-BLEU: 13.95
-Meteor:  9.5
-Rouge-L:  18.81
-Cider:  0.73
+BLEU: 14.11
+Meteor:  9.64
+Rouge-L:  18.99
+Cider:  0.74
 ./result/MCMD/cpp/come
-BLEU: 20.54
-Meteor:  14.45
-Rouge-L:  26.81
-Cider:  1.22
+BLEU: 20.80
+Meteor:  14.55
+Rouge-L:  27.01
+Cider:  1.25
 ./result/MCMD/csharp/tranlate
 BLEU: 23.90
 Meteor:  15.37
@@ -29,20 +29,20 @@ Meteor:  17.77
 Rouge-L:  33.33
 Cider:  1.91
 ./result/MCMD/java/tranlate
-BLEU: 25.77
-Meteor:  15.77
-Rouge-L:  33.3
-Cider:  1.74
+BLEU: 26.06
+Meteor:  15.97
+Rouge-L:  33.64
+Cider:  1.77
 ./result/MCMD/java/retrieve
-BLEU: 20.16
-Meteor:  12.63
-Rouge-L:  25.99
-Cider:  1.25
+BLEU: 20.22
+Meteor:  12.64
+Rouge-L:  26.02
+Cider:  1.26
 ./result/MCMD/java/come
-BLEU: 26.86
-Meteor:  16.68
-Rouge-L:  34.2
-Cider:  1.87
+BLEU: 27.17
+Meteor:  16.91
+Rouge-L:  34.59
+Cider:  1.9
 ./result/MCMD/javascript/tranlate
 BLEU: 26.72
 Meteor:  17.74
