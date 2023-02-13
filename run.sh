@@ -12,13 +12,13 @@ mkdir -p exp/$date/output/retrieval
 mkdir -p summary/s1
 mkdir -p summary/s1
 
-batch_size=8
+batch_size=12
 max_source_length=512
 max_target_length=100
 output_dir=./exp/$date/output
 res_dir=./exp/$date/prediction
 cache_path=./exp/$date/cache
-task=java
+task=$1
 learning_rate=5e-5
 
 CUDA_VISIBLE_DEVICES=0 \
